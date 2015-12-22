@@ -1,4 +1,4 @@
-FROM node:5.2.0
+FROM centos-node
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
